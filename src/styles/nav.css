@@ -1,0 +1,28 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+}
+
+nav h1 {
+  font-size: 35px;
+}
+
+nav button {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  outline: none;
+}
+
+nav button:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=nav.css.map */

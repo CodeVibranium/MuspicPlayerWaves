@@ -1,0 +1,59 @@
+.Library {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 30%;
+
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  //   background: rgb();
+  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  // transition: 0.5s all ease;
+  h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+  }
+  small {
+    text-align: center;
+    // padding: 10px 0;
+    color: white;
+  }
+}
+
+.LibrarySongJs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    width: 50%;
+    padding-top: 10px;
+    &:hover {
+      box-shadow: 2px 2px 50px rgb(156, 151, 177);
+    }
+  }
+
+  h3 {
+    padding: 15px 0;
+    color: rgb(136, 135, 128);
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0);
+}
+
+.expand {
+  display: none;
+  transition: 0.5s all ease-in;
+}
+.contract {
+  display: block;
+  transition: 0.5s all ease-out;
+}

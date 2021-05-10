@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Player-Header {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.time-control {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.time-control input {
+  width: 100%;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  padding: 1rem 0rem;
+}
+
+.time-control input:hover {
+  cursor: pointer;
+}
+
+.time-control p {
+  padding: 1rem;
+}
+
+.Play-Pause {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin: 1rem;
+}
+
+.Play-Pause svg {
+  cursor: pointer;
+}
+
+.Song-Body {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Song-Body img {
+  width: 20%;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.Song-Body h1 {
+  font-family: "Fredericka the Great", cursive;
+  margin: 1rem;
+}
+
+.Song-Body h2 {
+  font-size: 1rem;
+  font-family: "Aladin", cursive;
+}
+
+.Library {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 30%;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left: 0px;
+  -webkit-box-shadow: 2px 2px 50px #cccccc;
+          box-shadow: 2px 2px 50px #cccccc;
+}
+
+.Library h1 {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.Library small {
+  text-align: center;
+  color: white;
+}
+
+.LibrarySongJs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.LibrarySongJs img {
+  border-radius: 50%;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.LibrarySongJs img:hover {
+  -webkit-box-shadow: 2px 2px 50px #9c97b1;
+          box-shadow: 2px 2px 50px #9c97b1;
+}
+
+.LibrarySongJs h3 {
+  padding: 15px 0;
+  color: #888780;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0);
+}
+
+.expand {
+  display: none;
+  -webkit-transition: 0.5s all ease-in;
+  transition: 0.5s all ease-in;
+}
+
+.contract {
+  display: block;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+}
+
+nav h1 {
+  font-size: 35px;
+}
+
+nav button {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  outline: none;
+}
+
+nav button:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
